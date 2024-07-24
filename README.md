@@ -19,6 +19,7 @@ o	Predictions are made on the test set using the trained model.
 o	Mean Squared Error (MSE) and R-squared metrics are calculated to evaluate model performance on the test data.
 o	Actual vs Predicted values are plotted to visually assess model accuracy.
 o	Feature importances are visualized to understand which features contribute most to predicting the 'Close' price.
+
 Conclusion
 The Random Forest Regression model shows promising results in predicting Bitcoin's closing price based on historical data. The evaluation metrics indicate that the model captures a significant portion of the variance in the 'Close' price. Feature importances suggest that certain derived date features (Year, Month, Day) play key roles in predicting price fluctuations.
 This project demonstrates a practical application of machine learning techniques in cryptocurrency price prediction, highlighting the importance of feature engineering and model evaluation in financial forecasting.
